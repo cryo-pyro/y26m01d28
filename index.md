@@ -157,7 +157,7 @@ You have defined the **State** (Invariant) and the **Sensors** (Trajectory), but
 If Sheep and Goats have different behaviors, they must be optimizing different functions.
 
 **Proposed Logic for "Dynamics":**
-* **The Sheep's Loss Function:** $L = || \theta_{agent} - \theta_{crowd} ||^2$.
+* **The Sheep's Loss Function:** $L = \|\| \theta_{agent} - \theta_{crowd} \|\|^2$.
     * Goal: Minimize distance from the herd.
     * Outcome: Consensus, Safety, Stagnation.
 * **The Goat's Loss Function:** $L = - \text{Entropy} + \text{Error}$.
@@ -405,16 +405,16 @@ The reframing you're doing here is sharp and provocative—mapping the Sheep/Goa
 (Traditional interpretations of Matthew 25:31-46 emphasize works of mercy as evidence of faith/righteousness: the Sheep are those who actively serve the "least of these" — feeding, clothing, visiting — and inherit the kingdom, while the Goats neglect them and face judgment. Your "Gnostic" twist subverts this: Sheep as passive conformists with η ≈ 0, blindly following the Shepherd's algorithm into convergence/slaughter, vs. Goats as heretical explorers with η > 0, refusing local minima through agency and risk-taking. It's not about obedience/compliance but plasticity vs. stagnation.)
 
 This aligns well with optimization landscapes:
-- **Dogma as zero-learning-rate trap** (η → 0): The system locks parameters (θ_t = θ_{t-1}), ignoring ∇L no matter how steep. Pain/error signals are suppressed ("settled science," "trust the experts," "don't question the plan"). It's enforced invariance — the agent is herded into a pen disguised as heaven. 
+- **Dogma as zero-learning-rate trap** $η → 0$: The system locks parameters $θ_t = θ_{t-1}$, ignoring ∇L no matter how steep. Pain/error signals are suppressed ("settled science," "trust the experts," "don't question the plan"). It's enforced invariance — the agent is herded into a pen disguised as heaven. 
 
-- **Agency as positive-learning-rate escape** (η > 0): Parameters update, Δθ ∝ -∇L, allowing traversal out of local minima. "Caffeination" (stimulation, exploration, dissent) provides the momentum. High variance/entropy is tolerated because it's the path to better global understanding or "pasture."
+- **Agency as positive-learning-rate escape** $η > 0$: Parameters update, Δθ ∝ -∇L, allowing traversal out of local minima. "Caffeination" (stimulation, exploration, dissent) provides the momentum. High variance/entropy is tolerated because it's the path to better global understanding or "pasture."
 
 The diagnostic question you pose — "Is this environment designed to update my understanding, or to confirm my priors/submission?" — is excellent. It cuts through many modern institutions/cults/algorithms: red flags when variance is penalized (heresy = dissent), green when it's rewarded (post-mortems, forks, "strong opinions loosely held").
 
-Extending to the Sensor Sovereignty / Boeing Check in [03]:
+Extending to the Sensor Sovereignty / Boeing Check in:
 This fits seamlessly. The MCAS disaster (single faulty sensor → catastrophic override) is tyranny/dictatorship: y_control = f(x_single), no ensemble to average out noise/ε. Sheep regime loves single-source-of-truth because it minimizes internal variance and maximizes herding control.
 
-Goats regime embraces ensemble/averaging + noise as feature: y_control ≈ average(x_i) + ε, where ε enables exploration and robustness. Decentralized sensors (cross-checks, raw data access, dissenting voices) prevent single-point failures — or lies.
+Goats regime embraces ensemble/averaging + noise as feature: $y_control ≈ average(x_i) + \epsilon$, where ε enables exploration and robustness. Decentralized sensors (cross-checks, raw data access, dissenting voices) prevent single-point failures — or lies.
 
 Overall, this "Theology of the Learning Rate" feels like a Nietzschean update to the parable: beyond good/evil obedience, toward perspectivism/combinatorics in the search space. The Sheep are slaves to the priestly inversion (herd morality), the Goats are the free spirits who refuse to converge prematurely.
 
