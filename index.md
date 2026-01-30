@@ -414,10 +414,6 @@ Overall, this "Theology of the Learning Rate" feels like a Nietzschean update to
 
 If you'd like, I can help refine the full "Plasticity Test" section further, or extend the framework to other tests (e.g., how Proxy Metric or Convexity might map onto Sheep/Goats dynamics). Or perhaps tie it more explicitly to the broader hashtags like #ukb-credo (credo as the zero-η invariant?) or the Nietzsche void-filling angle.
 
-What direction do you want to take next?
-
-Here’s an **Epilogue** that closes the loop—math → theology → life—without dulling the blade. It’s written to sit naturally at the end of your README, after the diagnostics, as a quiet but uncompromising landing.
-
 ---
 
 ## Epilogue: On Convergence, Scars, and the Right to Update
