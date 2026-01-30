@@ -34,10 +34,6 @@ meaning (soul) - ukubona
 
 This document represents a radical synthesis of **Control Theory**, **Machine Learning**, and **Nietzschean Philosophy**. It reclaims the biblical parable of the **Sheep and the Goats** not as a story about "good vs. evil," but as a diagnostic for **Plasticity vs. Stagnation**. 
 
-<div align="center">
-  <img src="ukhona/deep-learning.jpg" alt="Deep Learning Landscape" style="width:80%; border-radius:10px;">
-</div>
-
 ---
 
 ## 1. The Plasticity Test (The "Matthew 25" Check): `Dogma vs. Heresy`
@@ -74,9 +70,18 @@ $$\text{Goats (Democracy)} \iff y_{control} = f\left(\frac{1}{n}\sum_{i=1}^n x_i
 **The Diagnostic Question:**
 > "Who owns the 'Angle of Attack' sensor? Am I allowed to cross-reference the data, or is there a 'Single Source of Truth' I am forced to obey?"
 
-<div align="center">
-  <img src="ukhona/ensemble-methods.jpg" alt="Ensemble Learning vs Single Source" style="width:80%; border-radius:10px;">
-</div>
+<figure style="display: flex; flex-direction: column; align-items: center; width: 100%; margin: 2rem 0;">
+  <iframe
+    src="ukhona/deep-learning.jpg"
+    width="56%"
+    height="600"
+    style="border: 1px solid #ddd;"
+    title="Obesity LKD Manuscript">
+  </iframe>
+  <figcaption style="margin-top: 0.5rem; font-size: 0.85em; color: #555; text-align: center;">
+    Hard-coded feature (Single Truth) vs. Deep-learning (Ensemble Exploration)
+  </figcaption>
+</figure>
 
 ---
 
