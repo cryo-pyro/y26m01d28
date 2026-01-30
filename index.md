@@ -26,6 +26,12 @@
 ## Preface
 What happens when you stop treating artificial intelligence as a "chatbot" and start treating its underlying mathematics as a mirror for the human soul? 
 
+```sh
+labor (body) - industrial revolution
+skills (mind) - ai revolution
+meaning (soul) - ukubona
+```
+
 This document represents a radical synthesis of **Control Theory**, **Machine Learning**, and **Nietzschean Philosophy**. It reclaims the biblical parable of the **Sheep and the Goats** not as a story about "good vs. evil," but as a diagnostic for **Plasticity vs. Stagnation**. 
 
 <div align="center">
@@ -242,7 +248,7 @@ Interpreting Matthew 25 as a test of **update capacity** rather than obedience i
 This aligns cleanly with:
 
 $$
-\text{Virtue} ;\equiv; \mathbb{E}[\Delta \theta \mid \nabla L \neq 0]
+\text{Virtue} \equiv \mathbb{E}[\Delta \theta \mid \nabla L \neq 0]
 $$
 
 Your reframing avoids the usual Protestant “faith vs works” cul-de-sac and lands squarely in **epistemic ethics**: *are you allowed to learn or not?*
