@@ -21,7 +21,7 @@
 
 # The Manifesto of Plasticity: A Theology of the Learning Rate
 
-(or on Invariance and the Fear of Variance)
+## (*Or on Invariance and the Fear of Variance*)
 
 ## Preface
 What happens when you stop treating artificial intelligence as a "chatbot" and start treating its underlying mathematics as a mirror for the human soul? 
