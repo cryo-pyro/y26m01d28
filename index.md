@@ -70,18 +70,17 @@ $$\text{Goats (Democracy)} \iff y_{control} = f\left(\frac{1}{n}\sum_{i=1}^n x_i
 **The Diagnostic Question:**
 > "Who owns the 'Angle of Attack' sensor? Am I allowed to cross-reference the data, or is there a 'Single Source of Truth' I am forced to obey?"
 
-<figure style="display: flex; flex-direction: column; align-items: center; width: 100%; margin: 2rem 0;">
-  <iframe
+<figure style="margin: 2rem auto; max-width: 56%; text-align: center;">
+  <img
     src="ukhona/deep-learning.jpg"
-    width="56%"
-    height="600"
-    style="border: 1px solid #ddd;"
-    title="Obesity LKD Manuscript">
-  </iframe>
-  <figcaption style="margin-top: 0.5rem; font-size: 0.85em; color: #555; text-align: center;">
+    alt="Hard-coded feature (Single Truth) vs. Deep-learning (Ensemble Exploration)"
+    style="width: 100%; height: auto; border: 1px solid #ddd;"
+  />
+  <figcaption style="margin-top: 0.5rem; font-size: 0.85em; color: #555;">
     Hard-coded feature (Single Truth) vs. Deep-learning (Ensemble Exploration)
   </figcaption>
 </figure>
+
 
 ---
 
